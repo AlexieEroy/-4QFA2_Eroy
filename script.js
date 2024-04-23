@@ -38,10 +38,10 @@ function myFunction(num1, num2){
         }
     //</table> marks the end of the table or closes the table
     table+="</table>"; 
-    }
 
     //since the variable "table" holds all the numbers, we will be using table_html.InnerHTML to display the final result
     table_html.innerHTML = table
+    }
     
     return false;
 }
